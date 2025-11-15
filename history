@@ -1,0 +1,96 @@
+ 1  ls
+    2  ls-al
+    3  ls -al
+    4  cd Documents
+    5  cd ..
+    6  ls
+    7  dir
+    8  mkdir rev
+    9  cd Documents
+   10  mkdir wow
+   11  ls
+   12  cd wow
+   13  touch Readme.txt
+   14  ls
+   15  start readme.txt
+   16  git config --global user.name "chewierei"
+   17  git config --global user.name
+   18  git config --global user.email "audrey.revil@olivarezcollege.edu.ph"
+   19  git config --global user.email
+   20  git add .
+   21  git status
+   22  cd ..
+   23  git status
+   24  touch Readme.md
+   25  git status
+   26  touch README.md
+   27  git branch -M nyehe
+   28  git add README.md
+   29  git commit -m "first commit"
+   30  echo "# rev" >> README.md
+   31  cd ..
+   32  git add .
+   33  ls -al
+   34  cd Documents
+   35  touch rev
+   36  touch wow
+   37  cd wow
+   38  git add .
+   39  git init
+   40  git add README.md
+   41  git commit -m "first commit"
+   42  git push -u origin main
+   43  git status
+   44  git add Readme.txt
+   45  git commit -m "first commit"
+   46  git branch -M main
+   47  git push -u origin main
+   48  git remote add origin https://github.com/chewierei/wow.git
+   49  git push -u origin main
+   50  git remote add origin https://github.com/chewierei/wow.git
+   51  start Readme.md
+   52  start README.md
+   53  start readme.txt
+   54  git add .
+   55  git commit -m "welcome"
+   56  start readme.md
+   57  history
+   58  start readme.txt
+   59  git add .
+   60  git commit -m "welcome"
+   61  git push
+   62  git add README
+   63  git add README.md
+   64  git add README.txt
+   65  git commit-m "welcome"
+   66  git commit -m "welcome"
+   67  git add .
+   68  git add README.md
+   69  git init
+   70  git add README.md
+   71  git add README.txt
+   72  git commit -m "welcome"
+   73  git add Readme.txt
+   74  git commit -m "welcome"
+   75  git init
+   76  config --global user.name "chewierei"
+   77  cd Documents
+   78  cd wow
+   79  git config --global user.name "chewierei"
+   80  git config --global user.name
+   81  git config --global user.email "audrey.revil@olivarezcollege.edu.ph
+
+   82  git config --global user.email "audrey.revil@olivarezcollege.edu.ph"
+   83  git config --global user.email
+   84  git init
+   85  git add README.md
+   86  git commit -m "first commit"
+   87  status
+   88  gt status
+   89  git status
+   90  git add README.txt
+   91  git commit -m "welcome"
+   92  git clone https://github.com/chewierei/wow.git
+   93  cd wow
+   94   ls
+   95  history

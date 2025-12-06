@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="rev2.html">Works</a></li>
+            <li><a href="lesson.html">Lesson</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+            <li><a href="multi.html">Multimedia</a></li>
+            <li><a href="calculator.html">Calculator</a></li>
+            <li><a href="wallclock.html">Wallclock</a></li>
+        </ul>
+    </nav>
+    <form action="">
+        <h1>Contacts</h1> <br>
+    <label for="Name"><strong>Name</strong></label><br>
+    <input type="text" name="name" id="name"><br>
+    <label for="Number"><strong>Number</strong></label><br>
+    <input type="number" name="num" id="num"><br>
+    <label for="Address"><strong>Address</strong></label><br>
+    <input type="text" name="address" id="address"><br>
+    <label for="Email"><strong>Email</strong></label><br>
+    <input type="email" name="email" id="Email" placeholder="Example@gmail.com"><br>
+    <label for="Date"><strong>Birthdate</strong></label><br>
+    <input type="date" name="date" id="date"><br>
+    <label for="notes"><strong>Notes</strong></label><br>
+    <textarea name="message" id="txt1"></textarea><br>
+    <label for="Group"><strong>Group</strong></label><br>
+    <input type="radio" name="group" id="group" value="Friend"> Friend
+    <input type="radio" name="group" id="group" value="Colleague"> Colleague
+    <input type="radio" name="group" id="group" value="Family"> Family
+    <br>
+<button name="Register" onclick="register()">Register</button>
+    </form>
+
+</body>
+</html>
+<script>
+    function register() {
+        var Name = document.getElementById('name').value;
+        var Number = document.getElementById('num').value;
+        var Address = document.getElementById('address').value;
+        var Email = document.getElementById('Email').value;
+        var Date = document.getElementById('date').value;
+        var group = document.querySelector('input[name=group]:checked').value;
+        alert("Account Registered!" + "\nName: " + Name + "\nNumber: " + Number + "\nAddress: " + Address + "\nEmail: " + Email + "\nBirthdate: " + Date + "\nGroup: " + group);
+    }
+</script>

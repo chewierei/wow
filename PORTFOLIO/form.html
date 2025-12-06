@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">This is my form
+        <br>
+        <label for="Username">Username</label><br>
+        <input type="text" name="username" id="username" placeholder="Username">
+        <br>
+        <label for="Password">Password</label> <br>
+        <input type="password" name="password" id="password" placeholder="Password"><br>
+        <button name="Login" onclick="validate()">Login</button>
+    </form>
+
+
+    <form action="">
+        Registration
+
+
+        <label for="Email">Email</label>
+        <input type="email" name="email" id="Email" placeholder="Example@gmail.com">
+
+
+        <p>
+            <input type="radio" name="gender" id="gender" value="male"> Male
+            <input type="radio" name="gender" id="gender" value="female" checked> Female
+        </p>
+
+
+        <p>
+            <input type="checkbox" name="genre" id="genre" value="jpop"> Jpop
+            <input type="checkbox" name="genre" id="genre" value="kpop"> Kpop
+        </p>
+       
+        <p>
+            <select name="music" id="music">
+                <option value="">SELECT MUSIC</option>
+                <option value="ytmsic">YTMUSIC</option>
+                <option value="spotify">SPOTIFY</option>
+
+
+            </select>
+
+
+            <button name="Register" onclick="Registration()">Register</button>
+        </p>
+    </form>
+</body>
+</html>
+<script>
+    function validate(){
+        var username = document.getElementById('username').value;
+        var password = document.getElementById('password').value;
+
+
+        if(username === 'reign' && password === '1234'){
+        alert("Welcome, your username: " + username + " and your Password: " +password);
+        }else{
+            alert('incorrect username or password');
+        }
+    }
+
+
+    function Registration(){
+        var Email = document.getElementById('Email').value;
+        var gender = document.querySelector('input[name=gender]:checked').value;
+        var genre = document.querySelector('input[type="checkbox"]:checked').value;
+        var music = document.querySelector('select[name="music"]').value;
+        alert('Email: ' + Email + "\nGender: " +gender + "\nGenre: " +genre +" \nMusic: " +music);
+    }
+</script>
+

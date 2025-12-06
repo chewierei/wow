@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #ffffff; 
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-image: url("bg4.jpg");
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Bubblegum Sans', sans-serif;
+}
+
+.top-menu {
+    display: flex;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.menu-item {
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    transition: background-color 0.2s;
+    border-right: 1px solid #ddd;
+}
+
+.menu-item:last-child {
+    border-right: none;
+}
